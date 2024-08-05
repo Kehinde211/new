@@ -378,12 +378,6 @@ h4 {
       text-align: center;
   }
 
-  .four {
-      flex-direction: column;
-      align-items: center;
-      padding-left: 0;
-  }
-
   #prescription, #acetate, #lensed, #prescribed, #type, #shipping {
     padding-left: 0;
   }
