@@ -259,9 +259,13 @@ h4 {
   
     .sub-container-one,
     .sub-container-two {
-      width: 100%;
+      min-width: 100%;
       margin: 5% 0 0 0;
-      font-size: 12px;
+      font-size: 10px;
+    }
+
+    .sub-container-one {
+      min-width: 100%;
     }
   
     h1 {
@@ -274,9 +278,9 @@ h4 {
     }
   
     .split-one {
-      width: 100%;
+      min-width: 100%;
       margin: 5px 0 10px 0;
-      height: 250px;
+      height: auto;
     }
 
     #type {
@@ -284,7 +288,7 @@ h4 {
     }
   
     .split-two {
-      width: 94%;
+      min-width: 100%;
       padding: 20px;
       margin-top: 15px;
       height: 100px;
@@ -303,12 +307,7 @@ h4 {
     .imaged {
       padding: 20px 0 0 0;
     }
-  
-    .four {
-      padding-left: 0px;
-      display: flex;
-      flex-direction: row;
-    }
+
   
     .inside {
       display: flex;
@@ -364,8 +363,12 @@ h4 {
       width: 100%;
     }
 
+    #type, #prescription {
+      padding-left: 0
+    }
+
     .oral {
-      width: 70px;
+      padding-left: 20px;
     }
   
     h4 {
@@ -379,7 +382,6 @@ h4 {
       justify-content: flex-start;
     }
   }
-
   @media (max-width: 1024px) {
     .container {
       flex-direction: column;
