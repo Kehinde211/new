@@ -351,6 +351,7 @@ h4 {
   }
 
   .flexed {
+      display: flex;
     margin-bottom: 30px;
   }
 
