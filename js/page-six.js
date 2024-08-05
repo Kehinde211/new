@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const upgradeElement = document.getElementById('upgrading');
 
     const pageSeries = [
-        'page-one.html',
+        'index.html',
         'page-two.html',
         'page-three.html',
         'page-four.html',
