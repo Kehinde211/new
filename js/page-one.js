@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const acetateElement = document.getElementById('acetate'); // Corrected ID
 
     const pageSeries = [
-        'page-one.html',
+        'index.html',
         'page-two.html',
         'page-three.html',
         'page-four.html',
