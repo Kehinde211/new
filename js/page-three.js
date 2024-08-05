@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hatchElement = document.getElementById('hatch');
 
     const pageSeries = [
-        'page-one.html',
+        'index.html',
         'page-two.html',
         'page-three.html',
         'page-four.html',
