@@ -191,7 +191,7 @@ form {
 }
 
 .split-two {
-    height: 157px;
+    height: 145px;
     margin-top: 10px;
     padding-top: 0;
     border-radius: 10px;
@@ -279,50 +279,29 @@ h4 {
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
-body {
-  font-size: 10px;
-}
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  nav {
+    display: none; 
+  }
 
     .container {
       flex-direction: column;
       align-items: center;
-      margin-top: 10%;
+      margin-top: 5%;
       font-size: 10px;
-      margin-left: 10px;
+      width: 100%;
     }
-
-    ul {
-        display: flex;
-        justify-content: center;
-      }
-      
-      li {
-        margin-left: 13px;
-        font-size: 10px;
-        list-style-type: none;
-      }
-      
-      li a {
-        text-decoration: none;
-        color: black;
-      }
-      
-      li a:hover {
-        text-decoration: underline;
-      }
-      
-      li a:active {
-        color: yellow;
-      }
   
     .sub-container-one,
     .sub-container-two {
       width: 100%;
-      margin: 5% 0 0 0;
-      font-size: 10px;
+      margin: 0 0 0;
+      font-size: 12px;
     }
-
   
     h1 {
       text-align: left;
@@ -332,119 +311,104 @@ body {
       width: 100%;
       margin-top: 10px;
     }
-
-    .frame {
-      padding-left: 7px;
-    }
   
-    .split-one {
-      width: 94%;
-      margin: 5px 0 10px 0;
-      height: 230px;
-    }
+    .split-one, .split-two {
+      width: 100%;
+      margin: 10px 0;
+      padding: 0px;
+      font-size: 10px;
+  }
 
-    #type {
-        padding-left: 0px;
-    }
-  
-    .split-two {
-      width: 94%;
-      padding: 20px;
-      margin-top: 15px;
-      height: 140px;
+  .split-one {
+    min-width: 100%;
+  }
+
+  .split-two {
+    height: 100px;
+  }
+
+  .one {
+      padding-left: 0;
       margin-bottom: 10px;
-    }
-  
-    .one {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .imaged {
-      padding: 20px 0 0 0;
-    }
-  
-    .four {
-      padding-left: 0px;
-      display: flex;
-      flex-direction: row;
-      width: 300px;
-    }
-  
-    .inside {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-    }
-  
-    .eve {
-      display: block;
-    }
-  
-    .eve img {
-      margin-right: 10px;
-    }
+  }
 
-    #zip {
-        padding-top: 10px;
-        padding-left: 2px;
-    }
-  
-    form {
-      display: flex;
-      justify-content: space-between;
+  .three {
+      flex-direction: row;
       align-items: flex-start;
-      margin-top: 20px;
-      width: 97%;
-      padding: 10px;
+  }
+
+  .price, .special {
+      text-align: center;
+  }
+
+  .four {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+  }
+
+  #prescription, #acetate, #lensed, #prescribed, #type, #shipping {
+    padding-left: 0;
+  }
+
+  .oral {
+      text-align: center;
+      width: 100%;
+  }
+
+  #zip {
+      margin-top: 10px;
+  }
+
+  .inside {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .eve {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .imaged {
+      padding-left: 0;
+      margin-right: 10px;
+  }
+
+  .sect {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .excellent, #ex {
+      text-align: center;
+      padding-left: 0;
+  }
+
+  .starred, #star {
+      height: 30px;
+      margin: 5px 0;
+  }
+
+  form {
       position: fixed;
       bottom: 0;
       left: 0;
-      box-shadow: 0 -2px 10px rgba(0,0,0,0.1)
-    }
-  
-    #back {
-      width: 35%;
-    }
-  
-    #next {
       width: 100%;
-    }
-  
-    .three {
+      padding: 10px;
+      background-color: white;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
       display: flex;
-      justify-content: space-evenly;
-      align-items: flex-start;
-      padding-left: 15px;
-    }
-
-    .green {
-        display: none;
-    }
-
-    #ex {
-        display: none;
-    }
-
-    .oral {
-      width: 300px;
-      padding-left: 0;
-    }
-
-    #prescription {
-      width: 75px;
-    }
-  
-    h4 {
-      text-align: left;
-    }
-  
-    .sect {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-    }
+      justify-content: space-between;
   }
+
+  #back, #next {
+      width: 48%;
+      height: 50px;
+      font-size: 16px;
+  }
+}
 
   @media (max-width: 1024px) {
     .container {
