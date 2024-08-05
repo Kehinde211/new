@@ -1,0 +1,515 @@
+body {
+    background-color: #f1f8ff;
+    margin: 5% 10%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+
+.sub-container-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    margin-bottom: 0%;
+}
+
+#green {
+  display: hidden;
+}
+
+button {
+    height: 75px;
+    width: 120%;
+    border-radius: 10px;
+    background-color: rgba(236, 58, 31, 255);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    background-color: #f8fdfe;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.unfree {
+    float: right;
+    margin-left: 70px;
+}
+
+.sub-container-two {
+    font-size: 14px;
+    margin-top: 3%;
+    width: 45%;
+}
+
+.blocked {
+    width: 420px;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+
+#type {
+    padding-left: 10px;
+}
+
+.imaged {
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.shipping {
+    padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  width: 100%
+}
+
+#next {
+    height: 75px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(236, 58, 31, 255);
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.split-one, .split-two {
+    border: 2px solid #ecf3fa;
+    padding: 15px 0px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.framed {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.let {
+    margin-left: 150px;
+}
+
+.fram {
+    margin-left: 19px;
+}
+
+#prescription {
+    padding-left: 25px;
+}
+
+.split-one {
+    height: 410px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.four {
+    padding-left: 90px;
+    padding-right: 10px;
+    display: flex;
+}
+
+#zip {
+    height: 15px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.split-two {
+    height: 157px;
+    margin-top: 10px;
+    padding-top: 0;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+h4 {
+    padding-left: 50px;
+}
+
+.special {
+    color: #dd4350;
+}
+
+.wrong-no {
+    color: black;
+    text-decoration: line-through;
+}
+
+.excellent {
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.stars, .green {
+    height: 37px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+#star {
+    height: 40px;
+    padding-top: 0px;
+}
+
+.inside {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eve {
+    display: flex;
+}
+
+#number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.glass {
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.uv {
+    padding-left: 10px;
+}
+
+#plastic {
+    color: #01b77a;
+}
+
+.free {
+    color: #01b77a;
+    font-weight: bold;
+}
+
+.sect {
+    display: flex;
+}
+
+.price {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+      font-size: 10px;
+      margin-left: 10px;
+    }
+  
+    .sub-container-one,
+    .sub-container-two {
+      width: 100%;
+      margin: 5% 0 0 0;
+      font-size: 12px;
+    }
+  
+    h1 {
+      text-align: left;
+    }
+  
+    .blocked {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .split-one {
+      width: 100%;
+      margin: 5px 0 10px 0;
+      height: 250px;
+    }
+
+    #type {
+        padding-left: 0px;
+    }
+  
+    .split-two {
+      width: 94%;
+      padding: 20px;
+      margin-top: 15px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    .green {
+      display: none;
+    }
+  
+    .one {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .imaged {
+      padding: 20px 0 0 0;
+    }
+  
+    .four {
+      padding-left: 0px;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .inside {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .eve {
+      display: block;
+    }
+  
+    .eve img {
+      margin-right: 10px;
+    }
+
+    #zip {
+        padding-top: 10px;
+    }
+  
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 20px;
+      width: 97%;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1)
+    }
+  
+    #back {
+      width: 20%;
+    }
+  
+    #next {
+      width: 80%;
+    }
+  
+    .three {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding-left: 15px;
+    }
+
+    #ex {
+        display: none;
+    }
+
+    button {
+      width: 100%;
+    }
+
+    .oral {
+      width: 70px;
+    }
+  
+    h4 {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .sect {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+      font-size: 15px;
+      margin-left: 20px;
+    }
+  
+    .sub-container-one,
+    .sub-container-two {
+      width: 100%;
+      margin: 5% 0 0 0;
+      font-size: 12px;
+    }
+  
+    h1 {
+      text-align: left;
+    }
+  
+    .blocked {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .glass {
+        padding-top: 15px;
+    }
+  
+    .split-one {
+      width: 94%;
+      margin: 5px 0 10px 0;
+      height: 350px;
+    }
+  
+    .split-two {
+      width: 90%;
+      padding: 20px;
+      margin-top: 15px;
+      height: 150px;
+      margin-bottom: 100px;
+    }
+
+    #type {
+        padding-left: 0px;
+    }
+  
+    .one {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    button {
+      width: 100%;
+    }
+  
+    .imaged {
+      padding-left: 35px;
+    }
+  
+    .four {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 92px;
+    }
+
+    #zip {
+        padding-top: 10px;
+    }
+  
+    .inside {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 0px;
+    }
+  
+    .eve {
+      display: block;
+    }
+  
+    .eve img {
+      margin-right: 10px;
+    }
+
+    .price {
+        padding-left: 0px;
+    }
+  
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 20px;
+      width: 97%;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1)
+    }
+  
+    #next {
+      width: 97.5%;
+      margin-right: 20px;
+    }
+  
+    .three {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding-left: 0px;
+    }
+
+    .green {
+        display: none;
+    }
+
+    #ex {
+        display: none;
+    }
+  
+    h4 {
+      padding-left: 70px;
+    }
+  
+    .sect {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }

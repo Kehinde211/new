@@ -1,0 +1,535 @@
+body {
+    background-color: rgba(241, 249, 254, 255);
+    margin: 5% 10%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+
+.sub-container-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    margin-bottom: 0%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    width: 100%
+  }
+
+.content {
+    display: flex;
+    background-color: #f8fdfe;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.unfree {
+    float: right;
+    margin-left: 70px;
+}
+
+.sub-container-two {
+    font-size: 14px;
+    margin-top: 3%;
+    width: 45%;
+}
+
+.blocked {
+    width: 420px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#type {
+    padding-left: 10px;
+}
+
+.imaged {
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.shipping {
+    padding-left: 10px;
+}
+
+#lensed {
+  padding-left: 35px;
+}
+
+#back {
+    height: 75px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(241, 249, 254, 255);
+    border: 2px solid #ecf3fa;
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#next {
+    height: 75px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgba(236, 58, 31, 255);
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.split-one, .split-two {
+    border: 2px solid #ecf3fa;
+    padding: 15px 0px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.framed {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.let {
+    margin-left: 150px;
+}
+
+.fram {
+    margin-left: 19px;
+}
+
+#prescription {
+    padding-left: 25px;
+}
+
+.split-one {
+    height: 410px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.four {
+    padding-left: 90px;
+    padding-right: 10px;
+    display: flex;
+}
+
+#zip {
+    height: 15px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.split-two {
+    height: 157px;
+    margin-top: 10px;
+    padding-top: 0;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+h4 {
+    padding-left: 50px;
+}
+
+.special {
+    color: #dd4350;
+}
+
+.wrong-no {
+    color: black;
+    text-decoration: line-through;
+}
+
+.excellent {
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.stars {
+    height: 37px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.starred {
+    height: 40px;
+    padding-top: 1px;
+    padding-left: 5px
+}
+
+.inside {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eve {
+    display: flex;
+}
+
+#number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.glass {
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.uv {
+    padding-left: 10px;
+}
+
+#plastic {
+    color: #01b77a;
+}
+
+.free {
+    color: #dd4350;
+    font-weight: bold;
+}
+
+.sect {
+    display: flex;
+}
+
+.price {
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      font-size: 10px;
+  }
+
+  .sub-container-one, .sub-container-two {
+      width: 100%;
+      margin-bottom: 15px;
+  }
+
+  .content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+  }
+
+
+  .unbolded {
+      font-weight: normal;
+  }
+
+  .free, .price {
+      font-size: 16px;
+  }
+
+  .split-one {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      height: auto;
+  }
+
+  .split-two {
+    padding: 5px;
+    height: 550px;
+  }
+
+  .frame, .shipping, .oral {
+    font-size: 11px;
+    padding-left: 0;
+}
+
+  .special {
+      color: red;
+  }
+
+  .wrong-no {
+      text-decoration: line-through;
+      color: gray;
+  }
+
+  #zip {
+      width: 50px;
+  }
+
+  .eve {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+
+  .imaged {
+      width: 20px;
+      margin-right: 5px;
+  }
+
+  .excellent {
+      font-size: 12px;
+  }
+
+  .stars {
+      width: 60px;
+  }
+
+  .form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 10px;
+  }
+
+  button {
+      padding: 10px 20px;
+      font-size: 16px;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .four {
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+    padding-top: 0;
+  }
+
+  #acetate, #type, #presription {
+    padding-left: 0;
+  }
+
+  .sect {
+      width: 100%;
+      text-align: left;
+  }
+
+  .inside {
+      width: 100%;
+      text-align: left;
+  }
+
+  .inside .eve {
+      justify-content: flex-start;
+  }
+
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    }
+  
+    #back {
+      width: 35%;
+    }
+  
+    #next {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+      font-size: 15px;
+      margin-left: 20px;
+    }
+  
+    .sub-container-one,
+    .sub-container-two {
+      width: 100%;
+      margin: 5% 0 0 0;
+      font-size: 12px;
+    }
+  
+    h1 {
+      text-align: left;
+    }
+  
+    .blocked {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .glass {
+        padding-top: 15px;
+    }
+  
+    .split-one {
+      width: 94%;
+      margin: 5px 0 10px 0;
+      height: 350px;
+    }
+  
+    .split-two {
+      width: 90%;
+      padding: 20px;
+      margin-top: 15px;
+      height: 150px;
+      margin-bottom: 100px;
+    }
+
+    #type {
+        padding-left: 0px;
+    }
+  
+    .one {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .imaged {
+      padding-left: 35px;
+    }
+  
+    .four {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 92px;
+    }
+
+    #zip {
+        padding-top: 10px;
+    }
+  
+    .inside {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 0px;
+    }
+  
+    .eve {
+      display: block;
+    }
+  
+    .eve img {
+      margin-right: 10px;
+    }
+
+    .price {
+        padding-left: 0px;
+    }
+  
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 20px;
+      width: 98%;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    }
+
+    #back {
+        width: 30%;
+        font-weight: bold;
+    }
+  
+    #next {
+      width: 60.5%;
+      margin-right: 50px
+    }
+  
+    .three {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding-left: 0px;
+    }
+
+    .stars {
+        display: none;
+    }
+
+    #lensed {
+      padding-left: 32px;
+    }
+
+    #ex {
+        display: none;
+    }
+  
+    h4 {
+      padding-left: 70px;
+    }
+  
+    .sect {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
